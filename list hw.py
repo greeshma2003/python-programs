@@ -1,0 +1,47 @@
+m=["elephant","lion","cat","dog","tiger"]
+print(m)
+print(type(m))
+print(len(m))
+print(m[4])
+print(m[-2])
+print(m[3:5])
+print(m[-4:-1])
+print("monkey" in m)
+print("monkey"not in m)
+print("dog" in m)
+print("dog" not in m)
+m[2]="bear"
+print(m)
+m[-1]="panda"
+print(m)
+m.append("deer")
+print(m)
+m.insert(2,"zebra")
+print(m)
+n=[8,4,2,7,1]
+print(n)
+m.extend(n)
+print(m)
+m.remove("lion")
+print(m)
+m.pop(4)
+print(m)
+m.pop()
+print(m)
+del n[2]
+print(n)
+for i in (m):
+    print(i)
+n.sort()
+print(n)
+n.sort(reverse=True)
+print(n)
+o=[60,70,80]
+print(o)
+p=o.copy()
+print(p)
+x=list(m)
+print(m)
+y=n+o
+print(y)
+print(y.count(2))
